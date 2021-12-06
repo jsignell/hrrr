@@ -19,17 +19,17 @@ Learning Objectives
 - Understand what attributes and coordinates mean for Xarray objects.
 - Set up lazy computation that run across a distributed set of machines using Dask.
 
-## Setup
-
+## Local setup
 
 ```
 git clone https://github.com/jsignell/hrrr.git
 cd hrrr
 git clone https://github.com/pangeo-data/tutorial-data.git
+conda env create -f binder/environment.yml
 ```
 
 ## This repo
 
-This material was based off of the [Pangeo Xarray tutorial](http://gallery.pangeo.io/repos/pangeo-data/pangeo-tutorial-gallery/xarray.html) and inspired by [Rich Signell's](https://github.com/rsignell) [HRRR Best Time Series notebook](https://nbviewer.org/gist/rsignell-usgs/9d24820bcf6bf30a410eed1e891f3562). 
+This material is largely based off of the [Pangeo Xarray tutorial](http://gallery.pangeo.io/repos/pangeo-data/pangeo-tutorial-gallery/xarray.html) and inspired by [Rich Signell's](https://github.com/rsignell) [HRRR Best Time Series notebook](https://nbviewer.org/gist/rsignell-usgs/9d24820bcf6bf30a410eed1e891f3562). 
 
 The GitHub repo is based off of [James Bourbeau's](https://github.com/jrbourbeau) [Dask binder template](https://github.com/jrbourbeau/dask-binder-template).
