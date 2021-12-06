@@ -2,9 +2,9 @@ name: hrrr
 channels:
   - conda-forge
 dependencies:
-  - python=3.8
-  - dask
+  - python=3.9
   - cfgrib
+  - dask
   - fsspec
   - kerchunk
   - netcdf4
@@ -16,3 +16,7 @@ dependencies:
   - jupyterlab>=3
   - dask-labextension
   - ipywidgets
+  # holoviz
+  - datashader
+  - geoviews
+  - hvplot
