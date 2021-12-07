@@ -1,4 +1,4 @@
-# HRRR Analysis
+# Intro to Python Data Analysis - Xarray - Dask
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jsignell/hrrr/main?urlpath=lab)
 
@@ -21,15 +21,18 @@ Learning Objectives
 
 ## Local setup
 
+To set up a local environment, first clone this repo and the data repo, then create the conda environment:
+
 ```
 git clone https://github.com/jsignell/hrrr.git
 cd hrrr
 git clone https://github.com/pangeo-data/tutorial-data.git
-conda env create -f binder/environment.yml
+conda env create -f binder/environment.yml  # or mamba env create...
+conda activate hrrr
 ```
 
 ## This repo
 
-This material is largely based off of the [Pangeo Xarray tutorial](http://gallery.pangeo.io/repos/pangeo-data/pangeo-tutorial-gallery/xarray.html) and inspired by [Rich Signell's](https://github.com/rsignell) [HRRR Best Time Series notebook](https://nbviewer.org/gist/rsignell-usgs/9d24820bcf6bf30a410eed1e891f3562). 
+This material is largely based off of the [Pangeo Xarray tutorial](http://gallery.pangeo.io/repos/pangeo-data/pangeo-tutorial-gallery/xarray.html) with the HRRR example inspired by [Rich Signell's](https://github.com/rsignell) [HRRR Best Time Series notebook](https://nbviewer.org/gist/rsignell-usgs/9d24820bcf6bf30a410eed1e891f3562). 
 
 The GitHub repo is based off of [James Bourbeau's](https://github.com/jrbourbeau) [Dask binder template](https://github.com/jrbourbeau/dask-binder-template).
