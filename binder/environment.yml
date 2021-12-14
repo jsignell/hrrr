@@ -9,6 +9,7 @@ dependencies:
   - kerchunk
   - netcdf4
   - pandas
+  - python-graphviz
   - s3fs
   - xarray
   - zarr
