@@ -9,9 +9,9 @@ This is a tutorial about using Xarray and Dask to work with distributed computat
 
 ## Learner profile
 This material is best suited to people who are familiar with Python (or another programming language like R, Matlab, or Julia). If you have encountered Pandas and Numpy and are familiar with running code in a Jupyter notebook even better!
-Learning Objectives
 
-## After attending this, you should be able to:
+## Learning Objectives
+ After attending this, you should be able to:
 
 - Load NetCDF, zarr, and geotiff data from local and remote storage.
 - Subset your data to an region of interest without pulling the whole dataset into memory.
@@ -31,7 +31,7 @@ conda env create -f binder/environment.yml  # or mamba env create...
 conda activate hrrr
 ```
 
-## This repo
+## Prior materials
 
 This material is largely based off of the [Pangeo Xarray tutorial](http://gallery.pangeo.io/repos/pangeo-data/pangeo-tutorial-gallery/xarray.html) with the HRRR example inspired by [Rich Signell's](https://github.com/rsignell) [HRRR Best Time Series notebook](https://nbviewer.org/gist/rsignell-usgs/9d24820bcf6bf30a410eed1e891f3562). 
 
